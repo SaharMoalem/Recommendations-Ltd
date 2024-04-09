@@ -1,0 +1,126 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #1B1924;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Josefin Sans', Arial, sans-serif;
+    user-select: none;
+}
+
+img {
+    width: 85px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+h1 { 
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: white;
+    font-size: 23px;
+    font-weight: 400;
+    margin-bottom: -1px;
+}
+
+textarea {
+    background: #444059;
+    color:#8F8F8F;
+    border: none;
+    resize: none;
+    width: 317px;
+    height: 118px;
+    border-radius: 8px;
+    font-size: 17px;
+    font-family: Inter;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+}
+
+.from-to-input {
+    background: #444059;
+    color:#8F8F8F;
+    border: none;
+    border-radius: 8px;
+    width: 171px;
+    height: 40px;
+    font-size: 17px;
+    font-family: Inter;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#publish-button {
+    background-color: #28A9F1;
+    color: #04131C;
+    border: none;
+    border-radius: 8px;
+    width: 358px;
+    height: 40px;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Josefin Sans', Arial, sans-serif;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#publish-button:hover {
+    background-color: #1E7DBD;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+ul li {
+    font-size: 16px;  
+    background-color: #FFFDF8;
+    width: 317px;
+    height: auto;
+    padding: 15px;
+    font-family: "Tilt Neon";
+}
+
+#receiver-text {
+    margin-top: -1px;
+    font-size: 18px;
+    font-weight: bold;
+    color: lightskyblue;
+}
+
+#content-last-row {
+    display: flex;
+    gap: 100px;
+}
+
+#sender-text {
+    font-weight: bold;
+    font-size: 18px;
+    color: lightskyblue;
+}
+
+#heart-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: auto;
+}
+
+footer {
+    color: white;
+}
